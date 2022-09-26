@@ -1,0 +1,57 @@
+<html>
+<head>
+	<style>
+@keyframes banner{
+from{
+background-color: green;
+opacity: 0.5;
+
+}
+to{
+background-color: blue;
+opacity: 0.5;
+	}
+}
+@keyframes text1{
+from{
+
+}
+to{
+
+	}
+}
+@keyframes text2{
+from{
+
+}
+to{
+
+	}
+}
+	div{
+background-color: #ccc;
+width: 500px;
+height: 100px;
+margin: 40px 30px;
+border: 1px solid #333;
+
+animation-name: backgroundColorAnimation, text1, text2;
+animation-duration: 5s;
+animation-iteration-count: infinite;
+animation-direction: alternate;
+animation-fill-mode: forwards;
+}
+
+.cpcp{
+animation-name: text1, text2;
+animation-duration: 5s;
+animation-iteration-count: infinite;
+animation-direction: alternate;
+animation-fill-mode: forwards;
+}
+	</style>
+</head>
+<body>
+<div></div>
+</body>
+</html>
